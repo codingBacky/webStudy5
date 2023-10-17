@@ -23,6 +23,7 @@ function idCheck(){
 }
 function idOk(){
 	opener.frm.userid.value = document.frm.userid.value;
-	opener.frm.reid.value = document.frm.userid.value.self.close();
+	opener.frm.reid.value = document.frm.userid.value;
+	self.close();
 	
 }
